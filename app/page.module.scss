@@ -43,3 +43,15 @@
 		filter: blur(2);
 	}
 }
+.main {
+	@apply flex items-center	;
+}
+.block {
+	@apply flex items-center gap-4;
+}
+.infoBlock {
+	@apply bg-bg-2 px-8 py-12 flex gap-12 flex-col w-fit h-fit rounded-[80px];
+}
+.infoContent {
+	@apply flex gap-32;
+}

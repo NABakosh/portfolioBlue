@@ -13,7 +13,7 @@ export default function Home() {
 		<div className={styles.container} style={{ color: 'white' }}>
 			<section className={`${styles.introduction} mt-16`}>
 				<h1 className='text-brand-2 bg-text-u'>Developer</h1>
-				<div>
+				<div className={styles.infoContent}>
 					<aside className={styles.aside}>
 						<div className={styles.content}>
 							<article className={styles.article}>
@@ -55,7 +55,7 @@ export default function Home() {
 						</div>
 					</aside>
 					<main className={styles.main}>
-						<div className='info'>
+						<div className='info pr-[74px]'>
 							<span>
 								<p className='code-m text-brand-2'>{`<h1>`}</p>
 								<h1 className='ml-4 h1-u'>
@@ -76,15 +76,32 @@ export default function Home() {
 								</h6>
 								<p className='code-m text-brand-2'>{`</p>`}</p>
 							</span>
-							<div className='flex items-center  gap-4'>
+							<div className='flex items-center  gap-4 mt-4'>
 								<h2 className='h2-m text-brand-1 ml-4	'>{`Let's Talk`}</h2>
 								<div className='h-10 w-10 bg-grey rounded-full flex justify-center items-center'>
 									<Image src={mail} alt='mail' width={22} height={18} />
 								</div>
 							</div>
 						</div>
-						<div className='infoBlock'>
-							
+						<div className={styles.infoBlock}>
+							<div className={styles.block}>
+								<h1 className='text-brand-1 number-m'>2</h1>{' '}
+								<p className='para-m'>
+									Programming <br></br> Language
+								</p>
+							</div>
+							<div className={styles.block}>
+								<h1 className='text-brand-1 number-m'>2</h1>{' '}
+								<p className='para-m'>
+									Development <br></br> Tools
+								</p>
+							</div>
+							<div className={styles.block}>
+								<h1 className='text-brand-1 number-m'>1</h1>{' '}
+								<p className='para-m'>
+									Year of <br></br> experience
+								</p>
+							</div>
 						</div>
 					</main>
 				</div>
