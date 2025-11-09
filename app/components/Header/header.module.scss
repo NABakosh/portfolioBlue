@@ -1,0 +1,32 @@
+@reference "tailwindcss";
+@reference "../../globals.css";
+
+.container {
+	@apply w-full flex justify-between items-center  px-[128px] bg-bg-1 h-[170px];
+}
+.logo {
+	@apply text-brand-1;
+}
+.nav {
+	@apply flex gap-8 text-white;
+	li {
+		text-decoration: none;
+		list-style: none;
+		@apply flex cursor-pointer gap-2 items-center;
+	}
+	input {
+		@apply w-[204px] h-8 bg-white rounded-3xl mx-8 text-bg-1 p-0;
+		@apply bg-[url('/icons/search.svg')] bg-no-repeat pl-2;
+		@apply bg-[position:right_16px_center];
+		::before {
+			content: '';
+			@apply bg-[url('public/icons/search.svg')] bg-no-repeat w-4 h-4 absolute ml-2;
+		}
+	}
+}
+.menu {
+	@apply flex gap-8;
+}
+.active {
+	@apply text-brand-1;
+}

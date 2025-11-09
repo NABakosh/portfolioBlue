@@ -1,0 +1,20 @@
+@reference "tailwindcss";
+@reference "../../globals.css";
+
+.h1 {
+	@apply pb-4 text-brand-1;
+}
+.container {
+	@apply w-full flex flex-col items-center;
+}
+.underline {
+	@apply w-full flex flex-auto items-center justify-between;
+	span {
+		width: calc(100% + 100px);
+		@apply h-1 bg-brand-1;
+	}
+}
+.mouseScroller {
+	@apply w-full  flex flex-col items-center mt-4 gap-4;
+	position: sticky;
+}

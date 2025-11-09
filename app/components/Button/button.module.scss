@@ -1,0 +1,14 @@
+@reference "tailwindcss";
+@reference "../../globals.css";
+.button {
+	@apply py-[16px] px-[32px] rounded-[32px] flex gap-4 cursor-pointer;
+}
+.solid {
+	@apply bg-brand-1 text-bg-1;
+}
+.white {
+	@apply bg-white text-bg-1;
+}
+.stroke {
+	@apply bg-bg-1 border-2 stroke-brand-1 text-white;
+}

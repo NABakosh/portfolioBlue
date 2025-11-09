@@ -1,26 +1,90 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+	--color-bg-1: #292f36;
+	--color-bg-2: #1a1323;
+	--color-brand-1: #12f7d6;
+	--color-brand-2: #98faec;
+	--color-grey: #43454d;
+	--color-white: #ffffff;
+	--color-html: #e34f26;
+	--color-css: #0c73b8;
+	--color-css: #e7a020;
+	--color-react: #28a9e0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.bg-text-u{
+  font-weight: 400;
+  font-size: 117px;
+  line-height: 134px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.h1-u{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.h2-u{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.button-u{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.article-u{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+.para-u{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+.label-u-m{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.label-u-l{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+.number-m{
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+}
+.h2-m{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+.logo-m{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+.menu-m{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.media-m{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.para-m{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.code-m{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }

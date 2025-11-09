@@ -1,0 +1,6 @@
+@reference "tailwindcss";
+@reference "../../globals.css";
+
+.footer {
+	@apply pt-4  w-full px-[128px] flex justify-between items-center border-t-1 border-grey;
+}
