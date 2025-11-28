@@ -6,7 +6,7 @@
 	min-height: 100vh;
 }
 .introduction {
-	@apply flex flex-col items-center gap-16;
+	@apply flex flex-col items-center gap-16 pb-32;
 }
 .article {
 	@apply flex flex-col items-center;

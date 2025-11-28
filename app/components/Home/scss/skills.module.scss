@@ -1,0 +1,24 @@
+@reference "tailwindcss";
+@reference "../../../globals.css";
+
+.skills {
+  @apply w-full flex gap-16 px-32 py-32 flex-col;
+  background-image: url("/skills/Skills.png");
+  background-repeat: no-repeat;
+}
+.content {
+  @apply flex gap-32 justify-center;
+}
+
+.contentBlock {
+  @apply py-4 px-6 bg-brand-2 rounded-xl flex flex-col justify-center items-center border-css border-l-8;
+}
+.block {
+  @apply w-[144px] h-[144px] rounded-full flex items-center justify-center;
+}
+.blocks {
+  @apply flex gap-6 flex-col items-center justify-center;
+}
+.instruments {
+  @apply flex gap-32;
+}
