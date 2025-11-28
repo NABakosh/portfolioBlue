@@ -2,4 +2,16 @@
 @reference "../../../globals.css";
 
 .works {
+  @apply w-full py-32 flex flex-col gap-16 bg-bg-2;
+  background-image: url("/works/background.png");
+}
+.main {
+  @apply items-center justify-center flex gap-16;
+  button {
+    @apply w-[72px] h-[72px] rounded-full flex items-center justify-center  bg-bg-1;
+    cursor: pointer;
+  }
+}
+.slider {
+  @apply flex;
 }

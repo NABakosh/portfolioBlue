@@ -12,7 +12,7 @@ export default function Works() {
         withTitle={true}
         subTitle="Is my mini works what i made when i learn everything"
       />
-      <main className="main">
+      <main className={styles.main}>
         <button>
           <Image src={buttonLeft} alt="buttonLeft" />
         </button>

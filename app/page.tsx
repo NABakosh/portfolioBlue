@@ -2,6 +2,7 @@ import Image from "next/image";
 import AboutMe from "./components/Home/AboutMe";
 import Skills from "./components/Home/Skills";
 import Works from "./components/Home/Works";
+import Blogs from "./components/Home/Blogs";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import photo from "public/main.jpg";
@@ -111,6 +112,7 @@ export default function Home() {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Works></Works>
+      <Blogs></Blogs>
     </div>
   );
 }
